@@ -1,0 +1,21 @@
+{
+  "name": "unibet.co.uk",
+  "version": "1.0.0",
+  "description": "Task 3: Cypress API test",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --record",
+    "start": "json-server db.json",
+    "test": "run-p --race start cy:run",
+    "integrationFolder": "integration/api-tests",
+    "specPattern": "**.spec.js"
+  },
+  "keywords": [],
+  "author": "O.Lysenko",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.3.1"
+  }
+}
